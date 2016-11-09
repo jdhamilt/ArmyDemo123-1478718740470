@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ArmyDemo123
+  host: ArmyDemo123
+  disk_quota: 1024M
+  services:
+  - ArmyDemo123-personality_insights
